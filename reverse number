@@ -1,0 +1,15 @@
+#include<stdio.h>
+long int n,i,temp,rev;
+int main()
+{
+printf("Enetr a number");
+scanf("%d",&n);
+for(i=1;n>0;i++)
+{ 
+    rev=n%10;
+    n=n/10;
+    temp=temp*10+rev;
+}
+printf("the no of digits are %d",i);
+return 0;
+}
