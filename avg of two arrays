@@ -1,0 +1,16 @@
+#include<stdio.h>
+int sum,avg,r,c,array1[2][2]={{1,2},{3,4}},array2[2][2]={{3,4},{2,4}};
+int main()
+{
+    printf("the avg of two array\n");
+    for(r=0;r<2;r++)
+    {
+        for(c=0;c<2;c++)
+     {
+    printf("%d\t",sum=(array1[r][c]+array2[r][c])/2);
+    avg=sum/2;
+     }
+    printf("\n");
+    }
+    return 0;
+}
