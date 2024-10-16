@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+char string[7]="surekha";
+int main()
+{
+    printf("%c",string[7]);
+    puts(string);
+}
